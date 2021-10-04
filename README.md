@@ -36,7 +36,7 @@ Select an Excel file and view the contents of the workbook in a list view
 
 ## インストール方法 Installation
 
-- pip install openpoyxl  
+- pip install openpyxl  
 
 ## 作者 Authors
 juu7g
