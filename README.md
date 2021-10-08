@@ -29,10 +29,18 @@ Select an Excel file and view the contents of the workbook in a list view
 
 ## 使い方 Usage
 
-
 ```dosbatch
 	Excel_viewer.exe
 ```
+
+1. ファイル選択ボタンをクリックしファイルを選択  
+	Click ファイル選択 button and select the file  
+2. 日付変換する場合はチェックを付ける  
+	Check if you want to convert the date  
+3. 開くボタンをクリック  
+	Click 開く button  
+4. CSV出力する場合はCSV出力ボタンをクリック  
+	Click the CSV出力 button to output CSV 
 
 ## インストール方法 Installation
 
