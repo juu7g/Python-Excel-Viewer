@@ -323,13 +323,11 @@ class CsvManage():
     def write_csv(self, path, header:list, rows:list):
         """
         csvファイルにrowsを出力
-        ファイル名は「sql_月日_時分_秒.csv」
+        ファイル名は「xlsxファイル名_シート名.csv」
         """
-        self.msg = ""
+        # self.msg = ""
         try:
-            csv_path = f'xls_{datetime.datetime.now().strftime("%m%d_%H%M_%S")}.csv'
-
-            with open(csv_path, encoding="utf_8", mode="w", newline="") as f:
+            with open(path + ".csv", encoding="cp932", mode="w", newline="") as f:   # cp932 or utf_8-sig
                 writer_ = csv.writer(f)
                 if header:
                     writer_.writerow(header)
